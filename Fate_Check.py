@@ -19,7 +19,7 @@ while(i<=r):
         count2+=1
     i=i+1
 result=1 if count1 > count2 else 2 
-fate = input1 if result==1 else result2
+fate = input1 if result==1 else input2
 print("fate decides you to choose:"+fate)
 
 
